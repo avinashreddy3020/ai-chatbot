@@ -16,7 +16,7 @@ export const handleMessage = async (req, res) => {
       }
     }
 
-    // 🔥 Updated AI fallback
+    
     if (!reply) {
       reply = await getAIReply(
         `User asked: ${message}
